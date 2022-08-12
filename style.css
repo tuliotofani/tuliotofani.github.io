@@ -1,0 +1,83 @@
+body {
+    background-color:  #0B7A75;
+    text-align: center;
+ }
+
+ p {
+     text-align: center;
+     font-size: 20px;
+ }
+
+ h1 {
+     color: #13262F;
+     font-size: 70px;
+     font-family: 'Times New Roman', Times, serif
+     }
+
+ h3 {
+     color: #472b0c;
+     font-size: 40px;
+     line-height: 10px;
+     
+ }
+
+ #name {
+     color: #13262F;
+ }
+ 
+ #link-topo {
+     text-decoration: none;
+     color: black;
+     text-align: center;
+     display: inline;
+     font-size: 25px;
+ }
+
+ 
+ .link-sumary {
+     text-decoration: none;
+     color: black;
+     text-align: center;
+     display: inline;
+     font-size: 25px;
+ } 
+ 
+ .link-blogs {
+     text-decoration: none;
+     color: black;
+     text-align: center;
+     display: inline;
+     font-size: 25px;
+ }
+
+ .link-redes {
+     text-decoration: none;
+     color: black;
+     text-align: center;
+     display: inline;
+     font-size: 25px;  
+ }
+
+ .list-habilits {
+     text-align: center;
+     font-size: 25px;
+ }
+
+ ul {
+     display: inline;
+ }
+
+ #foto-1 {
+     text-align: left;
+ }
+
+ #foto-2 {
+     text-align: right;
+ }
+ #foto-1, #foto-2 {
+     border-radius: 90%;
+ } 
+ .a {
+     font-size: 5px;
+     margin-top: 0px;
+ } 
