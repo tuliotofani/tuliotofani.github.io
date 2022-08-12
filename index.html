@@ -23,27 +23,28 @@
         h3 {
             color: #472b0c;
             font-size: 40px;
+            line-height: 10px;
             
         }
 
         #name {
             color: #13262F;
         }
-
-        .list-sumary {
-            color: black;
-            line-height: 25px;
-            text-align: center;
-                    }
         
-        #link {
+        #link-topo {
             text-decoration: none;
+            color: black;
+            text-align: center;
+            display: inline;
+            font-size: 25px;
         }
 
         
         .link-sumary {
             text-decoration: none;
             color: black;
+            text-align: center;
+            display: inline;
             font-size: 25px;
         } 
         
@@ -52,6 +53,20 @@
             color: black;
             text-align: center;
             display: inline;
+            font-size: 25px;
+        }
+
+        .link-redes {
+            text-decoration: none;
+            color: black;
+            text-align: center;
+            display: inline;
+            font-size: 25px;  
+        }
+
+        .list-habilits {
+            text-align: center;
+            font-size: 25px;
         }
 
         ul {
@@ -69,11 +84,11 @@
             border-radius: 90%;
         } 
         .a {
-            font-size: 25px;
+            font-size: 5px;
+            margin-top: 0px;
         }
-        .ul {
-            text-align: center;
-        }
+
+           
     </style>
 </head>
 <body>
@@ -98,7 +113,7 @@
     <p>Atleta de <strong>Powerlifting</strong>, campeão Brasileiro e estadual. Estudante de Desenvolvimento Web na Trybe. <br> Mineiro de Belo Horizonte, onde moro. Casado e apaixonado por pets e esportes. Fã de literatura fantástica <br>e manga. Adoro jogar vídeo game para relaxar. Viajar e conhecer novas culturas sempre que a oportunidade <br> aparece. Sempre buscando minha melhor versão.
     <hr>
     <h3 id="habilidades">Minhas habilidades:</h3>
-    <ul class="list-sumary" type="square">
+    <ul class="list-habilits">
         <li>Boa comunicação</li>
         <li>Liderança</li>
         <li>Empatia</li>
@@ -111,11 +126,11 @@
     <p><a class="link-blogs" href="https://the-race.com/" target="_blank" >Blog Formula 1</a></p>
     <hr>
     <h3 id="contatos">Onde estou:</h3>
-    <ul class="list-sumary">
-        <li><a href="https://github.com/tuliotofani" target="_blank">GitHub</a></li>
-        <li><a href="https://linkedin.com/in/tulio-tofani-85b7291ba" target="_blank">Linkedin</a></li>
-        <li><a href="https://www.instagram.com/tuliotofani/" target="_blank">Instagram</a></li>
+    <ul>
+        <li><a class="link-redes" href="https://github.com/tuliotofani" target="_blank">GitHub</a></li>
+        <li><a class="link-redes" href="https://linkedin.com/in/tulio-tofani-85b7291ba" target="_blank">Linkedin</a></li>
+        <li><a class="link-redes" href="https://www.instagram.com/tuliotofani/" target="_blank">Instagram</a></li>
     </ul>
-    <H4><a id="link" href="#topo">Voltar ao topo da página.</a></H4>
+    <h4><a id="link-topo" href="#topo">Voltar ao topo da página.</a></h4>
 </body>
 </html>
