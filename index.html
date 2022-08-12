@@ -3,30 +3,102 @@
 <head>
     <meta charset="UTF-8">
     <title>Túlio Tófani</title>
+    <style>
+        body {
+           background-color:  #0B7A75;
+           text-align: center;
+        }
+
+        p {
+            text-align: center;
+            font-size: 20px;
+        }
+
+        h1 {
+            color: #13262F;
+            font-size: 70px;
+            font-family: 'Times New Roman', Times, serif
+            }
+
+        h3 {
+            color: #472b0c;
+            font-size: 40px;
+            
+        }
+
+        #name {
+            color: #13262F;
+        }
+
+        .list-sumary {
+            color: black;
+            line-height: 25px;
+            text-align: center;
+                    }
+        
+        #link {
+            text-decoration: none;
+        }
+
+        
+        .link-sumary {
+            text-decoration: none;
+            color: black;
+            font-size: 25px;
+        } 
+        
+        .link-blogs {
+            text-decoration: none;
+            color: black;
+            text-align: center;
+            display: inline;
+        }
+
+        ul {
+            display: inline;
+        }
+
+        #foto-1 {
+            text-align: left;
+        }
+
+        #foto-2 {
+            text-align: right;
+        }
+        #foto-1, #foto-2 {
+            border-radius: 90%;
+        } 
+        .a {
+            font-size: 25px;
+        }
+        .ul {
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
     <h1 id="topo">Portfólio</h1>
     <hr>
-    <h3>Túlio Tófani Fernandes Carvalho</h3>
+    <h2 id="name">Túlio Tófani Fernandes Carvalho</h2>
     <hr>
     <h3>Índice:</h3>
-    <ul>
-        <li><a href="#fotos">Fotos</a></li>
-        <li><a href="#eu">Quem sou eu?</a></li>
-        <li><a href="#habilidades">Minhas habilidades!</a></li>
-        <li><a href="#blogs">Sites que acompanho</a></li>
-        <li><a href="#contatos">Redes</a></li>
+    <ul class="list-sumary">
+        <li><a class="link-sumary" href="#fotos">Fotos</a></li>
+        <li><a class="link-sumary" href="#eu">Quem sou eu?</a></li>
+        <li><a class="link-sumary" href="#habilidades">Minhas habilidades!</a></li>
+        <li><a class="link-sumary" href="#blogs">Sites que acompanho</a></li>
+        <li><a class="link-sumary" href="#contatos">Redes</a></li>
     </ul>
     <hr>
-    <h2 id="fotos">Fotos</h2>
-    <img src="Tulio_Tofani.jpg" alt="Foto de Túlio Tófani com blusa preta" width="250px">
-    <br><img src="Deadlift.jpg" alt="Fot de Tulio fazendo deadlift" width="250px">
+    <h3 id="fotos">Fotos:</h3>
+    <img id="foto-1" src="Tulio_Tofani.jpg" alt="Foto de Túlio Tófani com blusa preta" width="250px">
+    <img id="foto-2" src="Deadlift.jpg" alt="Fot de Tulio fazendo deadlift" width="325px">
     <hr>
     <h3 id="eu">Quem sou eu:</h3>
     <p>Atleta de <strong>Powerlifting</strong>, campeão Brasileiro e estadual. Estudante de Desenvolvimento Web na Trybe. <br> Mineiro de Belo Horizonte, onde moro. Casado e apaixonado por pets e esportes. Fã de literatura fantástica <br>e manga. Adoro jogar vídeo game para relaxar. Viajar e conhecer novas culturas sempre que a oportunidade <br> aparece. Sempre buscando minha melhor versão.
     <hr>
     <h3 id="habilidades">Minhas habilidades:</h3>
-    <ul type="square">
+    <ul class="list-sumary" type="square">
         <li>Boa comunicação</li>
         <li>Liderança</li>
         <li>Empatia</li>
@@ -35,15 +107,15 @@
     </ul>
     <hr>
     <h3 id="blogs">Sites que acompanho:</h3>
-    <p><a href="https://kingofthelifts.com/" target="_blank">Site Powerlifting</a></p>
-    <p><a href="https://the-race.com/" target="_blank" >Blog Formula 1</a></p>
+    <p><a class="link-blogs" href="https://kingofthelifts.com/" target="_blank">Site Powerlifting</a></p>
+    <p><a class="link-blogs" href="https://the-race.com/" target="_blank" >Blog Formula 1</a></p>
     <hr>
     <h3 id="contatos">Onde estou:</h3>
-    <ul>
+    <ul class="list-sumary">
         <li><a href="https://github.com/tuliotofani" target="_blank">GitHub</a></li>
         <li><a href="https://linkedin.com/in/tulio-tofani-85b7291ba" target="_blank">Linkedin</a></li>
         <li><a href="https://www.instagram.com/tuliotofani/" target="_blank">Instagram</a></li>
     </ul>
-    <H4><a href="#topo">Voltar ao topo da página.</a></H4>
+    <H4><a id="link" href="#topo">Voltar ao topo da página.</a></H4>
 </body>
 </html>
